@@ -1,29 +1,23 @@
-export const projectData=[
-    {
-      id: "1",
-      icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    },
-    {
-      id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    },
-    {
-      id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
-  ]
+export const projectData = [
+  {
+    id: "1",
+    duration: "Dec 2020 – July 2022",
+    client: "Phrama Coviglance Clients",
+    desc: "Worked Build Tenant Config create module , Build Tenant Config edit module , Build Tenant Config view module , Build Tenant list module , Build dashboard module , Build static widget module , Build message count module , Build message status module , Build configurable pie chart using d3.js, bug fixes for UI Improvement.",
+    project: "PV Clinical",
+  },
+  {
+    id: "2",
+    duration: " Feb 2020 – Dec 2020",
+    client: "Countable",
+    desc: "Adinovis is an application used by chartered accountants to make their process easy and online ,it is used to mange account and give financial statement yearly basis, do online chat with client and consultancy through chat",
+    project: "Adinovis",
+  },
+  {
+    id: "3",
+    duration: "March 2019 – Feb 2020",
+    client: "Edmond School",
+    desc: "DCP Direct copier program ,this is program built for many device situated at different location are handle at one place ,which mean multiple devices in single device ,a user can do photo copy at difrent location and r charge as per number of page copied and color used in it.",
+    project: "DCP",
+  },
+];

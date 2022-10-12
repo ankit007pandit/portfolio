@@ -25,11 +25,12 @@ export default function Works() {
                                 <div className="imgContainer">
                                     <img src="assets/web-development-ico.png" alt=""/>
                                 </div>
-                                <h2>{d.title}</h2>
+                                <h2>{d.client}</h2>
+                                <h4>{d.project}</h4>
                                 <p>
                                     {d.desc}
                                 </p>
-                                <span>Projects</span>
+                                <span>{d.duration}</span>
                             </div>
                         </div>
                         <div className="right">
